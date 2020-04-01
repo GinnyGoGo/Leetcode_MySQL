@@ -3,7 +3,7 @@
 -- ? Think about:
 -- EmployeeSalary > ManagerSalary 
 -- &
--- EmployeeSalary > ManagerSalary
+-- EmployeeSalary < ManagerSalary
 
 Select a.Name As Employee
 From Employee AS a, 
