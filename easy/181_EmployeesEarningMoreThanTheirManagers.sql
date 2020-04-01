@@ -23,6 +23,6 @@ And a.Salary > b.Salary
 -- Approach II: Using a meaningful name
 Select E.Name AS Employee
 From Employee As E
-Join Employee As M /* without setting a, b */
+Join Employee As M /* without naming a, b */
 On E.ManagerID = M.Id
 where E.Salary > M.Salary
