@@ -1,3 +1,5 @@
+-- Group By
+
 -- Approach I: Group By & Having & Count()
 SELECT class
 FROM courses
