@@ -1,6 +1,5 @@
 -- DATEDIFF(), DATE_ADD()
 
-
 -- Approach I: DATEDIFF() (Faster)
 select w1.id
 from weather as w0, weather as w1
