@@ -1,6 +1,6 @@
 -- [Facebook]
 
--- Mission: 
+-- Mission: reports the number of posts reported yesterday for each report reason. Assume today is 2019-07-05.
 
 -- No need to filter extra is not null. When action = 'report', extra is guaranteed not null.
 -- No need to filter count > 0. If a group exists, it must have at least one row.
